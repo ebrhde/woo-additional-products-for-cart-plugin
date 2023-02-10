@@ -1,0 +1,8 @@
+.custom-upsells ul.products {
+    list-style-type: none;
+    display: flex;
+}
+
+.custom-upsells li {
+    width: 20% !important;
+}

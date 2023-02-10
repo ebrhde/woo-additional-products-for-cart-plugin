@@ -1,0 +1,16 @@
+== Changelog ==
+
+= December-18-2022 :: 0.0.1
+
+* Initial Release.
+
+= January-11-2023 :: 0.0.2
+
+* Added get-started.
+* Added footer link.
+* Added prefixing for variable in comment.php and function.php
+* Added requires at least in style.css
+* Added enable/disable sticky header.
+* Changed gpl version in style and readme file.
+* Removed esc_url from function.php. 
+
