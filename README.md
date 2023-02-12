@@ -8,4 +8,5 @@ together with some another product, added to user cart or if no product from the
 <li>Clone the repository to wp-content folder of your wordpress site directory</li>
 <li>Add the shortcode [addictional-cart-products] to the cart page</li>
 <li>Find and activate the WooCommerce Additional Products For Cart plugin in plugins list</li>
+<li>(optional) Activate Shoes Store Elementor theme</li>
 </ol>
