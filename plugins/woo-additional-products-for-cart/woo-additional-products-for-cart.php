@@ -16,7 +16,7 @@ if(!defined('ABSPATH')) {
 }
 
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
-	if ( ! function_exists( 'show_woocommerce_additional_products_for_cart' ) ) {
+	if ( ! function_exists( 'show_woo_additional_products_for_cart' ) ) {
 
 		/**
 		 * Output product up sells.
@@ -40,7 +40,6 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 				}
 			}
 
-			// Get visible upsells then sort them at random, then limit result set.
 			$plugin_items = wc_products_array_orderby( array_filter( array_map( 'wc_get_product', retrieve_products_by_order_ids($selected_cart_product_id, $orders_with_cart_product) ), 'wc_products_array_filter_visible' ), $orderby, $order );
 
 			if(!$plugin_items) {
